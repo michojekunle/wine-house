@@ -94,7 +94,6 @@ html {
     opacity: 1;
 }
 
-
 .logo {
     height: 6rem;
 }
@@ -106,10 +105,17 @@ html {
     left: 3rem;
 }
 
-.progress h1 {
+.progress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress h2 {
     font-size: 2.5rem;
     font-weight: 300;
     color: #fff;
+    margin-bottom: 1rem;
 }
 
 .circle-wrapper {
@@ -122,7 +128,11 @@ html {
     width: 1rem;
     border: .1rem solid #fff;
     border-radius: 50%;
+    margin: 0 .3rem;
+    transition: background-color .3s;
 }
+
+.circle-1 {background-color: #ddd;}
 
 .wrapper {
     width: 100vw;
@@ -135,9 +145,11 @@ section {
     width: 100%;
     height: 100%;
     position: absolute;
+    overflow: hidden;
+    transition: left 1.5s;
 }
 
-.section-5 {
+.section-1 {
     z-index: 50;
 }
 
@@ -167,6 +179,10 @@ section {
     border-bottom: .2rem solid #d50000;
     text-align: right;
     user-select: none;
+}
+
+.section-2 {
+    z-index: 40;
 }
 
 .section-2-wrapper {
@@ -213,6 +229,10 @@ section {
     width: 80rem;
 }
 
+.section-3 {
+    z-index: 30;
+}
+
 .section-3-wrapper {
     background: linear-gradient(rgba(0 0 0 / .3), rgba(0 0 0 / .9)), url(images/section-3-bg.jpg) center no-repeat;
     background-size: cover;
@@ -241,6 +261,10 @@ section {
     width: 40rem;
     position: absolute;
     opacity: .7;
+}
+
+.section-4 {
+    z-index: 20;
 }
 
 .section-4-wrapper {
@@ -274,6 +298,10 @@ section {
     border: .1rem solid #fff;
     padding: 1rem;
     opacity: 0.8;
+}
+
+.section-5 {
+    z-index: 10;
 }
 
 .section-5-wrapper {
