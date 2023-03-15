@@ -4,22 +4,23 @@ let bool = true;
 
 const sections = document.querySelectorAll('section');
 const progress = document.querySelector('.progress h2');
-const circles = document.querySelector('circle');
+const circles = document.querySelectorAll('.circle');
 
 const progressCounter = () => {
     progress.textContent = `${counter2}/${sections.length}`;
 
-    Array.from(circles).forEach(circle => {
+    Array.from(circles).forEach((circle) => {
+        console.log(circle);
         circle.style.backgroundColor = 'transparent';
     });
-    document.querySelector(`.circle-${counter2}`).style.backgroundColor = '#ddd';
+    document.querySelector(`.circle.circle-${counter2}`).style.backgroundColor = '#ddd';
 }
 
 const pageController = () => {
     bool = true;
     if(counter1 === 5) {
         Array.from(sections).forEach(section => {   
-            section.style.left = 0;
+            section.style.left = '0';
         })
         counter1 = 0;
         counter2 = 1;
@@ -37,8 +38,8 @@ const pageController = () => {
         })
         counter1 = 4;
         counter2 = 5;
-        progressCounter();
         bool = false;
+        progressCounter();
     }
 
     return bool;
@@ -69,7 +70,7 @@ document.querySelector('.left-btn').addEventListener('click', () => {
     counter1--;
     counter2--;
     pageController() && (
-        document.querySelector(`.section-${counter2}`).style.left = 0
+        document.querySelector(`.section-${counter2}`).style.left = '0'
     )
     progressCounter();
 })
