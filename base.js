@@ -10,7 +10,6 @@ const progressCounter = () => {
     progress.textContent = `${counter2}/${sections.length}`;
 
     Array.from(circles).forEach((circle) => {
-        console.log(circle);
         circle.style.backgroundColor = 'transparent';
     });
     document.querySelector(`.circle.circle-${counter2}`).style.backgroundColor = '#ddd';
