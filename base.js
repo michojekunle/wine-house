@@ -83,10 +83,10 @@ document.querySelector('.right-btn').addEventListener('click', () => {
     progressCounter();
 })
 
-docuemnt.querySelector('.grapes-img').addEventListener('mouseover', () => {
-    document.querySelector('.section-3-wrapper').style.opacity = '.5';
+document.querySelector('.grapes-img').addEventListener('mouseover', () => {
+    document.querySelector('.section-3-wrapper').style.opacity = '.7';
 })
 
-docuemnt.querySelector('.grapes-img').addEventListener('mouseout', () => {
+document.querySelector('.grapes-img').addEventListener('mouseout', () => {
     document.querySelector('.section-3-wrapper').style.opacity = '1';
 })
