@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/michojekunle/wine-house/](https://github.com/michojekunle/wine-house/)
-- Live Site URL: [https://wine-house-nine.vercel.app/](https://wine-house-nine.vercel.app/)
+- Live Site URL: [https://wnh.netlify.app/](https://wnh.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,7 @@ Users should be able to:
 
 In the course of this Project as Interesting and Refreshing as it was, I grabbed a few Important concepts such as:
 - Effectively Building Responsive websites and apps with vanilla css.
+- 
 
 ### Continued development
 ```
@@ -56,7 +57,7 @@ Going forward, I'll be working on more animated, responsive, dynamic and interac
 
 ### Useful resources
 
-- If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+- If you want more help with writing markdown, I'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ## Author
