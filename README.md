@@ -47,7 +47,7 @@ Users should be able to:
 
 In the course of this Project as Interesting and Refreshing as it was, I grabbed a few Important concepts such as:
 - Effectively Building Responsive websites and apps with vanilla css.
-- 
+- Implementing A Smooth Horizontal scroll with Javascript wheel event.
 
 ### Continued development
 ```
@@ -57,12 +57,13 @@ Going forward, I'll be working on more animated, responsive, dynamic and interac
 
 ### Useful resources
 
+- Javascript Wheel Event [Elements wheel event - Web APIs | MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event)
 - If you want more help with writing markdown, I'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 
 ## Author
 
-- Website - [AMD](https://github.com/michojekunle)
+- Github - [AMD](https://github.com/michojekunle)
 - Twitter - [@MichaelOjekunl2](https://www.twitter.com/MichaelOjekunl2)
 - LinkedIn - [Michael Ojekunle](https://www.linkedin.com/in/michael-ojekunle-651a8a232/)
 
